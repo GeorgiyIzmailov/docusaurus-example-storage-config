@@ -1,0 +1,29 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.button {
+  font-size: 1rem;
+  background-color: #2e8555;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  text-transform: uppercase;
+  margin: 10px 0px;
+  cursor: pointer;
+  transition: ease background-color 250ms;
+
+  &:hover {
+    background-color: #3f3d56;
+  }
+}
